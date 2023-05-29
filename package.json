@@ -1,0 +1,27 @@
+{
+  "name": "evolve-credit",
+  "version": "1.0.0",
+  "description": "evolve SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Folawewo/evolve-credit.git"
+  },
+  "keywords": [
+    "evolve",
+    "sdk",
+    "finance"
+  ],
+  "author": "Folawewo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Folawewo/evolve-credit/issues"
+  },
+  "homepage": "https://github.com/Folawewo/evolve-credit#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
