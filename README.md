@@ -13,7 +13,7 @@ The Evolve Credit SDK allows developers to easily integrate lending, savings, an
 
 You can install the Evolve Credit SDK using npm:
 
-```bash
+```
 npm install evolve-credit-sdk
 ```
 
@@ -49,7 +49,7 @@ sdk.getUser(userId)
 
 #### Create a loan application
 
-```http
+```
   GET ${this.apiUrl}/loan-applications
 ```
 
@@ -59,7 +59,7 @@ sdk.getUser(userId)
 
 #### Update user savings account
 
-```http
+```
   GET ${this.apiUrl}/savings-accounts/${userId}
 ```
 
@@ -69,7 +69,7 @@ sdk.getUser(userId)
 
 #### Recover a loan
 
-```http
+```
   GET ${this.apiUrl}/loans/${loanId}/recover
 ```
 
