@@ -17,7 +17,7 @@ You can install the Evolve Credit SDK using npm:
 npm install evolve-credit-sdk
 ```
 
-```
+```json
 const EvolveCreditSDK = require('evolve-credit-sdk');
 
 const sdk = new EvolveCreditSDK('your-api-key', 'https://api.evolvecredit.co');
@@ -39,7 +39,7 @@ sdk.getUser(userId)
 
 #### Retrieve user information
 
-```http
+```
   GET ${this.apiUrl}/users/${userId}
 ```
 
@@ -49,7 +49,7 @@ sdk.getUser(userId)
 
 #### Create a loan application
 
-```http
+```
   GET ${this.apiUrl}/loan-applications
 ```
 
@@ -59,7 +59,7 @@ sdk.getUser(userId)
 
 #### Update user savings account
 
-```http
+```
   GET ${this.apiUrl}/savings-accounts/${userId}
 ```
 
@@ -69,7 +69,7 @@ sdk.getUser(userId)
 
 #### Recover a loan
 
-```http
+```
   GET ${this.apiUrl}/loans/${loanId}/recover
 ```
 
